@@ -33,9 +33,9 @@ app.get('/login',(req,res)=>{
     res.render('login');
 })
 
-app.listen(5000,()=>{
-    console.log('listening at the port 5000');
-})
+// app.listen(5000,()=>{
+//     console.log('listening at the port 5000');
+// })
 
 
 // common vale folder me ham header, footer jo common hai vo sab le sakte hai 

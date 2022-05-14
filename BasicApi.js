@@ -10,8 +10,8 @@ const data = require('./data');
 // }).listen(5000);
 
 // second example
-http.createServer((req,res)=>{
-    res.writeHead(200,{'content-type':'application\json'});
-    res.write(JSON.stringify(data));
-    res.end();
-}).listen(5000);
+// http.createServer((req,res)=>{
+//     res.writeHead(200,{'content-type':'application\json'});
+//     res.write(JSON.stringify(data));
+//     res.end();
+// }).listen(5000);

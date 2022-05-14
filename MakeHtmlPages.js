@@ -24,9 +24,9 @@ app.use(express.static(publicPath)); // yhe ham fir se express. kyo use kar rhe 
 //! remember express.static() method inside app.use() method for rendering static pages.
 
 
-app.listen(5000,()=>{
-    console.log("Listening at the port 5000");
-})
+// app.listen(5000,()=>{
+//     console.log("Listening at the port 5000");
+// })
 
 
 

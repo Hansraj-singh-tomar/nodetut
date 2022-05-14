@@ -17,8 +17,8 @@ app.get('/about',(req,res)=>{
     res.send('hello this is about page');
 })
 
-app.listen(5000,()=>{
-    console.log('listening the port at 5000');
-});
+// app.listen(5000,()=>{
+//     console.log('listening the port at 5000');
+// });
 
 //! jab bhi ham kuch changes ya nya kam karte hai to nodeJs ko hame restart karna padta hai, bar bar start karne se bachne ke liye ham nodemon ka use karte hai 
